@@ -1,0 +1,1514 @@
+{
+  "intents": [
+    {
+      "intent": "run_playbook",
+      "examples": [
+        {
+          "text": "can you run @playbook ?"
+        },
+        {
+          "text": "I want to run a guide"
+        },
+        {
+          "text": "Can you help me run a guide?"
+        },
+        {
+          "text": "Can you run a playbook?"
+        },
+        {
+          "text": "I would like to play a playbook"
+        },
+        {
+          "text": "I want to play a playbook"
+        },
+        {
+          "text": "I would like to run a playbook"
+        },
+        {
+          "text": "I want to run a playbook"
+        },
+        {
+          "text": "run the playbook @playbook"
+        },
+        {
+          "text": "run the @playbook guide"
+        },
+        {
+          "text": "run @playbook"
+        },
+        {
+          "text": "Performs the execution of @playbook"
+        },
+        {
+          "text": "play the @playbook guide"
+        },
+        {
+          "text": "play the playbook @playbook"
+        },
+        {
+          "text": "please run the playbook @playbook"
+        },
+        {
+          "text": "help me play a guide"
+        },
+        {
+          "text": "help me run a guide"
+        },
+        {
+          "text": "Can you run a guide?"
+        }
+      ],
+      "description": "Run an indicated playbook"
+    },
+    {
+      "intent": "Users_prensents",
+      "examples": [
+        {
+         "text": "I want to know if there is a user"
+        },
+        {
+         "text": "review a user"
+        },
+        {
+         "text": "Is the user @userName on the server @serverName?"
+        },
+        {
+         "text": "check if the user @userName exists on the server @serverName"
+        },
+        {
+         "text": "verify user @userName"
+        }
+      ],
+      "description": "Verify the existence of a user on managed hosts"
+    },
+    {
+      "intent": "Suggestions",
+      "examples": [
+        {
+          "text": "sugg"
+        }
+      ],
+      "description": "For personalized response when it is not clear what the user asks"
+    },
+    {
+      "intent": "Try_Again",
+      "examples": [
+         {
+           "text": "try again"
+         },
+         {
+           "text": "retry"
+         },
+         {
+           "text": "do it again"
+         },
+         {
+           "text": "again"
+         }
+      ],
+      "description": "To execute previous commands again without providing all the detail."
+    },
+    {
+      "intent": "Commands_Completed",
+      "examples": [
+        {
+          "text": "done"
+        },
+        {
+          "text": "finished"
+        },
+        {
+          "text": "accomplished"
+        }
+      ],
+      "description": "Watson response for Ansible command results."
+    },
+    {
+      "intent": "Bye",
+      "examples": [
+        {
+         "text": "forget it, thanks"
+        },
+        {
+         "text": "thanks, that's all"
+        },
+        {
+         "text": "thanks"
+        },
+        {
+         "text": "forget it"
+        },
+        {
+         "text": "it doesn't matter anymore"
+        },
+        {
+         "text": "that's it"
+        },
+        {
+         "text": "goodbye"
+        },
+        {
+         "text": "bye"
+        },
+        {
+         "text": "see you"
+        },
+        {
+         "text": "see you later"
+        },
+        {
+         "text": "I thank you"
+        },
+        {
+         "text": "thank you very much for your help"
+        },
+        {
+         "text": "thanks for helping me"
+        },
+        {
+         "text": "we'll talk later"
+        }
+      ],
+      "description": "Goodbye responses"
+    },
+    {
+      "intent": "Doubts",
+      "examples": [
+        {
+          "text": "doubts"
+        }
+      ],
+      "description": "Answer when it is not clear what should be done."
+    },
+    {
+      "intent": "Hello",
+      "examples": [
+          {
+          "text": "Hello. Can you help me?"
+          },
+          {
+          "text": "help me"
+          },
+          {
+          "text": "hello, how are you?"
+          },
+          {
+          "text": "Hello"
+          }
+      ],
+      "description": "Saludos"
+    },
+    {
+      "intent": "test_playbook",
+      "examples": [
+          {
+          "text": "perform a playbook test @playbook"
+          },
+          {
+          "text": "performs a cold run of @playbook"
+          },
+          {
+          "text": "run @playbook in test mode"
+          },
+          {
+          "text": "try @playbook"
+          },
+          {
+          "text": "you must carry out a mock execution of the @playbook guide"
+          },
+          {
+          "text": "test the @playbook guide"
+          },
+          {
+          "text": "run an @playbook test"
+          },
+          {
+          "text": "run @playbook in mock mode"
+          },
+          {
+          "text": "I want to run a guide in test mode"
+          },
+          {
+          "text": "I want you to do a mock execution of a playbook"
+          },
+          {
+          "text": "I would like to try a playbook"
+          },
+          {
+          "text": "I would like to take a test with a guide"
+          },
+          {
+          "text": "I want to test a guide"
+          },
+          {
+          "text": "I want to try a playbook"
+          },
+          {
+          "text": "run without making changes @playbook"
+          },
+          {
+          "text": "run unchanged @playbook"
+          },
+          {
+          "text": "simulate @playbook"
+          },
+          {
+          "text": "Performs a run simulation of @playbook"
+          },
+          {
+          "text": "conduct a simulation of the @playbook guide"
+          }
+      ],
+      "description": "Realizar simulacros de prueba de Playbooks"
+    },
+    {
+      "intent": "syntax_check",
+      "examples": [
+          {
+          "text": "verify @playbook"
+          },
+          {
+          "text": "check the syntax of the playbooks"
+          },
+          {
+          "text": "check the code of the guides"
+          },
+          {
+          "text": "check the playbook syntax @playbook"
+          },
+          {
+          "text": "verify that the code in the @playbook is fine"
+          },
+          {
+          "text": "check the code in @playbook"
+          },
+          {
+          "text": "check the syntax of the guides"
+          },
+          {
+          "text": "check the syntax of all guides"
+          },
+          {
+          "text": "check the code of all reproductions"
+          },
+          {
+          "text": "evaluate the code in @playbook"
+          },
+          {
+          "text": "evaluate the syntax of @playbook"
+          },
+          {
+          "text": "evaluate @playbook"
+          },
+          {
+          "text": "check the syntax of @playbook"
+          },
+          {
+          "text": "I want to review a playbook"
+          },
+          {
+          "text": "I want to check the syntax of a playbook"
+          },
+          {
+          "text": "I want to verify playbook"
+          },
+          {
+          "text": "I would like to check the syntax of a playbook"
+          },
+          {
+          "text": "I want you to review a guide"
+          },
+          {
+          "text": "please check this playbook"
+          },
+          {
+          "text": "check the syntax of this guide"
+          },
+          {
+          "text": "evaluate the code of this playbook"
+          },
+          {
+          "text": "evaluate the code in this guide"
+          },
+          {
+          "text": "I want you to evaluate the code and syntax of a guide"
+          },
+          {
+          "text": "I want you to evaluate the playbook code"
+          },
+          {
+          "text": "I want you to check the code of a playbook"
+          },
+          {
+          "text": "I want you to compile the code in this guide"
+          },
+          {
+          "text": "I want you to check the code of this playbook"
+          }
+      ],
+      "description": "Verify that the playbook syntax is correct"
+    },
+    {
+      "intent": "Errors",
+      "examples": [
+        {
+          "text": "error"
+        }
+      ],
+      "description": "For error response"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "execute",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "exec",
+          "synonyms": [
+            "run ",
+            "reproduce",
+            "execute",
+            "implement",
+            "reproduction",
+            "execution",
+            "play"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "playbook",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ping",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "create_users",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "setupApache",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "syntax-check",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "syntax",
+          "synonyms": [
+            "syntax",
+            "code",
+            "compile",
+            "compilation",
+            "debug",
+            "depuration",
+            "evaluate",
+            "evaluation",
+            "interprets",
+            "interpret"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "userName",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "userName",
+          "patterns": [
+            "[a-zA-Z]{2}\\d{6}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "simulate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "test",
+          "synonyms": [
+            "simulacrum",
+            "test",
+            "simulation",
+            "cold test",
+            "cold run",
+            "simulates",
+            "exercise",
+            "execution without changes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+                {
+                 "text": "Very well, I will review."
+                },
+                {
+                 "text": "Well, I'm going to compile it and give you the results."
+                },
+                {
+                 "text": "Excellent, I'll review it then. I'll pass you the results when I'm done."
+                },
+                {
+                 "text": "Now, I will review the syntax of these playbooks."
+                }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "node_9_1577056222619",
+      "previous_sibling": "slot_9_1577150568754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I'll check $playbook and notify you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_1_1577055843382",
+      "previous_sibling": "response_2_1577055778961"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I will check and notify you of the results."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_3_1577055932469",
+      "previous_sibling": "response_5_1577055871964"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, there is probably some syntax error. I will review $playbook and notify you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_2_1577055778961",
+      "previous_sibling": "response_9_1577055698610"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You must tell me what playbook you want me to verify."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "true",
+      "dialog_node": "response_7_1577055965656",
+      "previous_sibling": "response_3_1577055932469"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "Ok, I'm going to check $playbook."
+              },
+              {
+               "text": "Ok, I'll review this."
+              },
+              {
+               "text": "Yes, there is probably some syntax error. I will check and notify you."
+              },
+              {
+               "text": "Okay, I'll check."
+              },
+              {
+               "text": "I will check and notify you of the results."
+              },
+              {
+               "text": "Sure, let's see if there are any errors in those playbooks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_9_1577055698610",
+      "previous_sibling": "response_8_1577055730857"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, let's see if there is any error in the $playbook code."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_5_1577055871964",
+      "previous_sibling": "response_1_1577055843382"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1576818352625",
+      "variable": "$playbook",
+      "dialog_node": "slot_9_1577150568754",
+      "previous_sibling": "handler_2_1577150567359"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I'll check the playbook $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_8_1577055730857",
+      "previous_sibling": "node_9_1577056222619"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "What playbooks are we going to work with?"
+              },
+              {
+               "text": "Very well, tell me what playbook I should check and I will start immediately."
+              },
+              {
+               "text": "What is the playbook to compile?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1577150567359"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You must tell me the name of the playbook you want to try."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "true",
+      "dialog_node": "response_6_1577067864256",
+      "previous_sibling": "response_3_1577067846005"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well, I proceed to perform the mock execution of $playbook. I will give you the results in what I finish."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_2_1577067731746",
+      "previous_sibling": "response_5_1577067712257"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I'm going to run the $playbook drill. Hopefully everything works fine! ... I'll let you know when I'm done."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_3_1577067846005",
+      "previous_sibling": "response_6_1577067759993"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1576978017350",
+      "variable": "$playbook",
+      "dialog_node": "slot_5_1577152692101",
+      "previous_sibling": "handler_3_1577152691531"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In agreement! Let's try $playbook. I notify you when it ends."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_6_1577067759993",
+      "previous_sibling": "response_2_1577067731746"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "Sure, I'll run a mock run of $playbook. I'll notify you of the results."
+              },
+              {
+               "text": "Very well, I will do a test run and pass the results."
+              },
+              {
+               "text": "Well, I proceed to conduct the drill. I will give you the results as I finish."
+              },
+              {
+               "text": "Okay! Let's try this. I notify you when it ends."
+              },
+              {
+               "text": "Ok, I'll run the drill. Hopefully everything works fine! ... I'll let you know when I'm done."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_10_1577067645768",
+      "previous_sibling": "node_5_1577067980150"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Very well, I will do a test run with $playbook and I pass the results."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_5_1577067712257",
+      "previous_sibling": "response_10_1577067645768"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "Very good! I will run this playbook in mock mode."
+              },
+              {
+               "text": "Well, I will run a test run."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "node_5_1577067980150",
+      "previous_sibling": "slot_5_1577152692101"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "What is the playbook to be run in mock mode?"
+              },
+              {
+               "text": "Very good!. What playbook are we going to try?"
+              },
+              {
+               "text": "What playbook should I run in test mode?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1577152691531"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1577169626137",
+      "variable": "$userName",
+      "dialog_node": "slot_4_1577169688143",
+      "previous_sibling": "handler_5_1577169687678"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Indicate the user"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1577169626137",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_5_1577169687678",
+      "previous_sibling": "response_6_1577169808661"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "V"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1577169626137",
+      "disabled": true,
+      "dialog_node": "response_6_1577169808661"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What playbook do you want to review?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1577150568754",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1577150568774",
+      "previous_sibling": "handler_6_1577150568774"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1577150568754",
+      "context": {
+        "playbook": "@playbook"
+      },
+      "conditions": "@playbook",
+      "event_name": "input",
+      "dialog_node": "handler_6_1577150568774"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What playbook should I run?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1577153700677",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1577153700698",
+      "previous_sibling": "handler_4_1577153700698"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1577153700677",
+      "context": {
+        "playbook": "@playbook"
+      },
+      "conditions": "@playbook",
+      "event_name": "input",
+      "dialog_node": "handler_4_1577153700698"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "With what playbook will I run a mock run?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1577152692101",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1577152692123",
+      "previous_sibling": "handler_3_1577152692123"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1577152692101",
+      "context": {
+        "playbook": "@playbook"
+      },
+      "conditions": "@playbook",
+      "event_name": "input",
+      "dialog_node": "handler_3_1577152692123"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, procedo a ejecutar $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_9_1577067096578",
+      "previous_sibling": "response_3_1577067075281"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I will proceed with the execution of $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_10_1577067053394",
+      "previous_sibling": "response_8_1577067033953"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Immediately. I proceed to run $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_8_1577067033953",
+      "previous_sibling": "response_3_1577067013596"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You must tell me what playbook you want to run."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "true",
+      "dialog_node": "response_2_1577067140443",
+      "previous_sibling": "response_9_1577067096578"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "Okay, I proceed to execute it."
+              },
+              {
+               "text": "Well, I will execute this."
+              },
+              {
+               "text": "Now I am going to execute it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "node_8_1577067200171",
+      "previous_sibling": "slot_4_1577153700677"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I'm going to run $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_3_1577067075281",
+      "previous_sibling": "response_10_1577067053394"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "Running $playbook."
+              },
+              {
+               "text": "Immediately."
+              },
+              {
+               "text": "Ok, I will proceed."
+              },
+              {
+               "text": "Okay. I'm going to execute it."
+              },
+              {
+               "text": "Ok, I proceed to execute it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_3_1577067013596",
+      "previous_sibling": "node_8_1577067200171"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1576620861419",
+      "variable": "$playbook",
+      "dialog_node": "slot_4_1577153700677",
+      "previous_sibling": "handler_4_1577153699946"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "You haven't told me which playbook is going to run."
+              },
+              {
+               "text": "Which playbook should I run?"
+              },
+              {
+               "text": "Well, I just need the name of the playbook that I must run and I will get to work."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1577153699946"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the user to review?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1577169688143",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1577169688158",
+      "previous_sibling": "handler_3_1577169688158"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1577169688143",
+      "context": {
+        "userName": "@userName.literal"
+      },
+      "conditions": "@userName.literal",
+      "event_name": "input",
+      "dialog_node": "handler_3_1577169688158"
+    },
+    {
+      "type": "frame",
+      "title": "Mock up playbooks",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#test_playbook",
+      "dialog_node": "node_8_1576978017350",
+      "previous_sibling": "node_4_1576818352625"
+    },
+    {
+      "type": "frame",
+      "title": "Run Playbook",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#run_playbook",
+      "dialog_node": "node_1_1576620861419",
+      "previous_sibling": "node_8_1576978017350"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "It was a pleasure helping you."
+              },
+              {
+               "text": "Until next time! .. I'll be here to help you whenever you want."
+              },
+              {
+               "text": "I'll be around when you need me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1577058429403",
+      "previous_sibling": "node_2_1577002186252"
+    },
+    {
+      "type": "standard",
+      "title": "Retry",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "Ok, I'll try again."
+              },
+              {
+               "text": "Very well, I will do it again."
+              },
+              {
+               "text": "Well, I will do it again."
+              },
+              {
+               "text": "Okay, I will do it one more time."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Try_Again",
+      "dialog_node": "node_2_1577091217984",
+      "previous_sibling": "node_8_1577169626137"
+    },
+    {
+      "type": "standard",
+      "title": "Doubts",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "I'm sorry, it's still not clear to me what to do. Please be more explicit."
+              },
+              {
+               "text": "Me again! ... I was honestly not sure what to do. Please be more specific."
+              },
+              {
+               "text": "The truth is that I still don't understand what you're asking for, use other words."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Doubts",
+      "dialog_node": "node_9_1577068230868",
+      "previous_sibling": "node_1_1576909832125"
+    },
+    {
+      "type": "standard",
+      "title": "Errors",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "I think something went wrong. This was the result"
+              },
+              {
+               "text": "An error occurred! .. This was the result"
+              },
+              {
+               "text": "The operation generated errors"
+              },
+              {
+               "text": "This is not right, something went wrong. These were the results"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Errors",
+      "dialog_node": "node_2_1577002186252",
+      "previous_sibling": "node_9_1577068230868"
+    },
+    {
+      "type": "standard",
+      "title": "In other things",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "I don't understand, maybe what you request me is not within my functions."
+              },
+              {
+               "text": "Can you express yourself in other words? I have not understood you."
+              },
+              {
+               "text": "I didn't understand. My functions are limited to activities with Ansible. Say it another way."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "In other things",
+      "previous_sibling": "node_3_1577058429403",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Commands Completed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+               "text": "Result of the operation"
+              },
+              {
+               "text": "Task finished, these were the results"
+              },
+              {
+               "text": "Done, this was the result"
+              },
+              {
+               "text": "I finished what you requested for, this is the result"
+              },
+              {
+               "text": "This was the result of the task you requested for"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Commands_Completed",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1576906151431",
+      "previous_sibling": "node_2_1577091217984"
+    },
+    {
+      "type": "frame",
+      "title": "Manage User",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, I'm going to look for the user $userName"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "value": "$userName"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Users_prensents",
+      "dialog_node": "node_8_1577169626137",
+      "previous_sibling": "node_1_1576620861419"
+    },
+    {
+      "type": "frame",
+      "title": "Review Playbook",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#syntax_check",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1576818352625",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "I do not understand",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+              "text": "I don't know exactly what you want me to do. Please be a little more specific. You want to ... \n - Run one or more indicated Playbooks. \n - Evaluate the syntax of one or more indicated Playbooks. \n - Make a cold run of one or more Playbooks without changes. A test."
+              },
+              {
+              "text": "It is not clear to me what to do. Be more specific, I can: \n - Run one or more indicated Playbooks. \n - Evaluate the syntax of one or more indicated Playbooks. \n - Run a cold run of one or more Playbooks without changes. A test."
+              },
+              {
+              "text": "I think I don't understand your request. Can you use other words? Can I help you with: \n - Execute one or more indicated Playbooks. \n - Evaluate the syntax of one or several indicated Playbooks. \n - perform One cold run of one or several Playbooks without changes. A test."
+              },
+              {
+              "text": "Sorry, I don't understand what I should do. I can help you with: \n - Run one or more indicated Playbooks. \n - Evaluate the syntax of one or more indicated Playbooks. \n - Run a cold run of one or more Playbooks without changes. A test."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Suggestions",
+      "dialog_node": "node_1_1576909832125",
+      "previous_sibling": "node_5_1576906151431"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi. What do you want me to do?"
+              },
+              {
+                "text": "Hi. What Ansible activity do you want me to run?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Hello",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": ""
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Admin Ansible",
+  "language": "en",
+  "description": "Dialogue for host administration with bot ansible assistant."
+}

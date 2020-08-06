@@ -1,0 +1,1535 @@
+{
+  "intents": [
+    {
+      "intent": "run_playbook",
+      "examples": [
+        {
+          "text": "puedes ejecutar @playbook ?"
+        },
+        {
+          "text": "quiero correr una guía"
+        },
+        {
+          "text": "¿Me puedes ayudar a ejecutar una guía?"
+        },
+        {
+          "text": "¿puedes ejecutar un playbook?"
+        },
+        {
+          "text": "me gustaría reproducir un playbook"
+        },
+        {
+          "text": "deseo reproducir un playbook"
+        },
+        {
+          "text": "me gustariá ejecutar un playbook"
+        },
+        {
+          "text": "quiero ejecutar un playbook"
+        },
+        {
+          "text": "ejecuta el playbook @playbook"
+        },
+        {
+          "text": "ejecuta la guía @playbook"
+        },
+        {
+          "text": "ejecuta @playbook"
+        },
+        {
+          "text": "realiza la ejecución de @playbook"
+        },
+        {
+          "text": "reproduce la guía @playbook"
+        },
+        {
+          "text": "has la reproducción del playbook @playbook"
+        },
+        {
+          "text": "ejecutar @playbook"
+        },
+        {
+          "text": "por favor ejecuta el playbook @playbook"
+        },
+        {
+          "text": "ayúadame a reproducir una guía"
+        },
+        {
+          "text": "ayúdame a ejecutar una aguía"
+        },
+        {
+          "text": "¿Puedes correr una guía?"
+        },
+        {
+          "text": "quiero correr un playbook"
+        }
+      ],
+      "description": "Ejecutar un playbook indicado"
+    },
+    {
+      "intent": "Users_prensents",
+      "examples": [
+        {
+          "text": "quiero saber si existe un usuario"
+        },
+        {
+          "text": "revisar un usuario"
+        },
+        {
+          "text": "Está el usuario @userName en el servidor @serverName?"
+        },
+        {
+          "text": "revisa si existe el usuario @userName en el servidor @serverName"
+        },
+        {
+          "text": "verifica el usuario @userName"
+        }
+      ],
+      "description": "Verificar la existencia de un usuario en los hosts administrados"
+    },
+    {
+      "intent": "Suggestions",
+      "examples": [
+        {
+          "text": "sugg"
+        }
+      ],
+      "description": "Para respuesta personalizadas cuando no está claro lo que pide el usuario"
+    },
+    {
+      "intent": "Try_Again",
+      "examples": [
+        {
+          "text": "trata otra vez"
+        },
+        {
+          "text": "inténtalo otra vez"
+        },
+        {
+          "text": "reintentalo"
+        },
+        {
+          "text": "intenta de nuevo"
+        },
+        {
+          "text": "otra vez"
+        },
+        {
+          "text": "hazlo otra vez"
+        },
+        {
+          "text": "de nuevo"
+        }
+      ],
+      "description": "Para ejecutar comandos previos nuevamente sin proporcionar todo el detalle."
+    },
+    {
+      "intent": "Commands_Completed",
+      "examples": [
+        {
+          "text": "done"
+        }
+      ],
+      "description": "Respuesta de watson para los resultados de los comandos Ansible."
+    },
+    {
+      "intent": "Bye",
+      "examples": [
+        {
+          "text": "olvídalo, gracias"
+        },
+        {
+          "text": "gracias, eso es todo"
+        },
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "olvídalo"
+        },
+        {
+          "text": "ya no importa"
+        },
+        {
+          "text": "eso es todo"
+        },
+        {
+          "text": "adios"
+        },
+        {
+          "text": "chao"
+        },
+        {
+          "text": "nos vemos"
+        },
+        {
+          "text": "hasta luego"
+        },
+        {
+          "text": "te agradezco"
+        },
+        {
+          "text": "muchas gracias por tu ayuda"
+        },
+        {
+          "text": "gracias por ayudarme"
+        },
+        {
+          "text": "hablamos luego"
+        }
+      ],
+      "description": "Respuestas de despedida"
+    },
+    {
+      "intent": "Doubts",
+      "examples": [
+        {
+          "text": "doubts"
+        }
+      ],
+      "description": "Responder cuando no está claro lo que se debe hacer."
+    },
+    {
+      "intent": "Hello",
+      "examples": [
+        {
+          "text": "hola. ¿Puedes ayudarme?"
+        },
+        {
+          "text": "ayúdame"
+        },
+        {
+          "text": "hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola"
+        }
+      ],
+      "description": "Saludos"
+    },
+    {
+      "intent": "test_playbook",
+      "examples": [
+        {
+          "text": "realiza una prueba del playbook @playbook"
+        },
+        {
+          "text": "realiza una corrida en frío de @playbook"
+        },
+        {
+          "text": "ejecuta @playbook en modo de prueba"
+        },
+        {
+          "text": "prueba @playbook"
+        },
+        {
+          "text": "debes realizar un simulacro de ejecución de la guía @playbook"
+        },
+        {
+          "text": "realiza una prueba de la guía @playbook"
+        },
+        {
+          "text": "ejecuta una prueba de @playbook"
+        },
+        {
+          "text": "ejecuta @playbook en modo simulacro"
+        },
+        {
+          "text": "deseo ejecutar una guía en modo de prueba"
+        },
+        {
+          "text": "quiero que hagas un simulacro de ejecución de un playbook"
+        },
+        {
+          "text": "me gustaría probar un playbook"
+        },
+        {
+          "text": "quisiera probar un playbook"
+        },
+        {
+          "text": "me gustaría realizar una prueba con una guía"
+        },
+        {
+          "text": "deseo realizar una prueba de una guía"
+        },
+        {
+          "text": "quiero probar un playbook"
+        },
+        {
+          "text": "corre sin hacer cambios @playbook"
+        },
+        {
+          "text": "ejecuta sin cambios @playbook"
+        },
+        {
+          "text": "simular @playbook"
+        },
+        {
+          "text": "probar @playbook"
+        },
+        {
+          "text": "realiza una simulación de ejecución de @playbook"
+        },
+        {
+          "text": "realiza un simulacro de la guía @playbook"
+        }
+      ],
+      "description": "Realizar simulacros de prueba de Playbooks"
+    },
+    {
+      "intent": "syntax_check",
+      "examples": [
+        {
+          "text": "verifica @playbook"
+        },
+        {
+          "text": "revisa la sintaxis de los playbooks"
+        },
+        {
+          "text": "chequea el código de las guías"
+        },
+        {
+          "text": "revisa la sintaxis del playbook @playbook"
+        },
+        {
+          "text": "verifica que el código del @playbook esté bien"
+        },
+        {
+          "text": "chequea el código de @playbook"
+        },
+        {
+          "text": "revisa la sintaxis de las guías"
+        },
+        {
+          "text": "verifica la sintáxis de todas las guías"
+        },
+        {
+          "text": "chequea el código de todas las reproducciones"
+        },
+        {
+          "text": "evaluar el código de @playbook"
+        },
+        {
+          "text": "evaluar la sintaxis de @playbook"
+        },
+        {
+          "text": "evaluar @playbook"
+        },
+        {
+          "text": "comprueba la sintaxis de @playbook"
+        },
+        {
+          "text": "quiero revisar un playbook"
+        },
+        {
+          "text": "quiero revisar la sintaxis de un playbook"
+        },
+        {
+          "text": "quiero verificar playbook"
+        },
+        {
+          "text": "me gustaría comprobar la sintaxis de un playbook"
+        },
+        {
+          "text": "quiero que revises una guía"
+        },
+        {
+          "text": "por favor verifica este playbook"
+        },
+        {
+          "text": "comprueba la sintaxis de esta guía"
+        },
+        {
+          "text": "evalúa el código de este playbook"
+        },
+        {
+          "text": "evalúa el código de esta guía"
+        },
+        {
+          "text": "quiero que evalúes el código y sintaxis de una guía"
+        },
+        {
+          "text": "quiero que evalúes el código de playbook"
+        },
+        {
+          "text": "quiero que chequees el código de un playbook"
+        },
+        {
+          "text": "deseo que compiles el código de esta guía"
+        },
+        {
+          "text": "deseo que compruebes el código de este playbook"
+        }
+      ],
+      "description": "Verificar que la sintaxis de los playbooks sea correcta"
+    },
+    {
+      "intent": "Errors",
+      "examples": [
+        {
+          "text": "error"
+        }
+      ],
+      "description": "Para respuesta de errores"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "execute",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "exec",
+          "synonyms": [
+            "ejecuta",
+            "reproduce",
+            "ejecutar",
+            "corre",
+            "reproducción",
+            "ejecución",
+            "reproducir",
+            "correr"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "playbook",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ping",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "create_users",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "setupApache",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "syntax-check",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "syntax",
+          "synonyms": [
+            "sintaxis",
+            "código",
+            "codigo",
+            "compila",
+            "compilación",
+            "depura",
+            "depuración",
+            "depurar",
+            "evaluar",
+            "evaluación",
+            "interpreta",
+            "compilar",
+            "interpretar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "userName",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "userName",
+          "patterns": [
+            "[a-zA-Z]{2}\\d{6}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "simulate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "test",
+          "synonyms": [
+            "simulacro",
+            "prueba",
+            "simulación",
+            "pruebas",
+            "prueba en frio",
+            "corrida en frío",
+            "simula",
+            "ensayo",
+            "ejercicio",
+            "ejecución sin cambios"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muy bien, voy a revisar."
+              },
+              {
+                "text": "Bien, lo voy a compilar y te daré los resultados."
+              },
+              {
+                "text": "Excelente, lo revisaré entonces. Te pasaré los resultados cuando termine."
+              },
+              {
+                "text": "Ahora sí, voy a revisar la sintaxis de estos playbooks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "node_9_1577056222619",
+      "previous_sibling": "slot_9_1577150568754"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acuerdo, revisaré $playbook y te notifico."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_1_1577055843382",
+      "previous_sibling": "response_2_1577055778961"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voy a chequear y te notificaré los resultados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_3_1577055932469",
+      "previous_sibling": "response_5_1577055871964"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sí, probablemente haya algún error de sintaxis. Revisaré $playbook y te notifico."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_2_1577055778961",
+      "previous_sibling": "response_9_1577055698610"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes decirme qué playbook quieres que verifique."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "true",
+      "dialog_node": "response_7_1577055965656",
+      "previous_sibling": "response_3_1577055932469"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, voy a verificar $playbook."
+              },
+              {
+                "text": "Vale, revisaré esto."
+              },
+              {
+                "text": "Sí, probablemente haya algún error de sintaxis. Revisaré y te notifico."
+              },
+              {
+                "text": "De acuerdo, voy revisar."
+              },
+              {
+                "text": "Voy a chequear y te notificaré los resultados."
+              },
+              {
+                "text": "Claro, vamos a ver si hay algún error en esos playbooks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_9_1577055698610",
+      "previous_sibling": "response_8_1577055730857"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro, vamos a ver si hay algún error en el código de $playbook."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_5_1577055871964",
+      "previous_sibling": "response_1_1577055843382"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1576818352625",
+      "variable": "$playbook",
+      "dialog_node": "slot_9_1577150568754",
+      "previous_sibling": "handler_2_1577150567359"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vale, revisaré el playbook  $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "conditions": "@playbook",
+      "dialog_node": "response_8_1577055730857",
+      "previous_sibling": "node_9_1577056222619"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Con qué playbooks vamos a trabajar?"
+              },
+              {
+                "text": "Muy bien, dime con qué playbook debo verificar y empezaré de inmediato."
+              },
+              {
+                "text": "¿Cuál es el playbook que hay que compilar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1576818352625",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1577150567359"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes indicarme el nombre de playbook que quieres probar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "true",
+      "dialog_node": "response_6_1577067864256",
+      "previous_sibling": "response_3_1577067846005"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bien, procedo a realizar el simulacro de ejecución de $playbook. Te daré los resultados en lo que termine."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_2_1577067731746",
+      "previous_sibling": "response_5_1577067712257"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, voy ejecutar el simulacro de $playbook. ¡Esperemos que todo funcione bien!... Te avisaré cuando termine."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_3_1577067846005",
+      "previous_sibling": "response_6_1577067759993"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1576978017350",
+      "variable": "$playbook",
+      "dialog_node": "slot_5_1577152692101",
+      "previous_sibling": "handler_3_1577152691531"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡De acuerdo! Vamos a probar $playbook. Te notifico cuando culmine."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_6_1577067759993",
+      "previous_sibling": "response_2_1577067731746"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro, realizaré un simulacro de ejecución de $playbook. Te notificaré los resultados."
+              },
+              {
+                "text": "Muy bien, haré una prueba de ejecución y te paso los resultados."
+              },
+              {
+                "text": "Bien, procedo a realizar el simulacro. Te daré los resultados en lo que termine."
+              },
+              {
+                "text": "¡De acuerdo! Vamos a probar esto. Te notifico cuando culmine."
+              },
+              {
+                "text": "Ok, voy ejecutar el simulacro. ¡Esperemos que todo funcione bien!... Te avisaré cuando termine."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_10_1577067645768",
+      "previous_sibling": "node_5_1577067980150"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muy bien, haré una prueba de ejecución con $playbook y te paso los resultados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "response_5_1577067712257",
+      "previous_sibling": "response_10_1577067645768"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Muy bien! ejecutaré este playbook en modo simulacro."
+              },
+              {
+                "text": "Bien, realizaré una prueba de ejecución."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "conditions": "@playbook",
+      "dialog_node": "node_5_1577067980150",
+      "previous_sibling": "slot_5_1577152692101"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Cuál es el playbook que hay que ejecutar en modo simulacro?"
+              },
+              {
+                "text": "¡Muy bien!. ¿Qué playbook vamos a probar?"
+              },
+              {
+                "text": "¿Qué playbook debo ejecutar en modo de prueba?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1576978017350",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1577152691531"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1577169626137",
+      "variable": "$userName",
+      "dialog_node": "slot_4_1577169688143",
+      "previous_sibling": "handler_5_1577169687678"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Indique el usuario"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1577169626137",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_5_1577169687678",
+      "previous_sibling": "response_6_1577169808661"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "V"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1577169626137",
+      "disabled": true,
+      "dialog_node": "response_6_1577169808661"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Qué playbook quieres revisar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1577150568754",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1577150568774",
+      "previous_sibling": "handler_6_1577150568774"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1577150568754",
+      "context": {
+        "playbook": "@playbook"
+      },
+      "conditions": "@playbook",
+      "event_name": "input",
+      "dialog_node": "handler_6_1577150568774"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Qué playbook debo ejecutar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1577153700677",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1577153700698",
+      "previous_sibling": "handler_4_1577153700698"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1577153700677",
+      "context": {
+        "playbook": "@playbook"
+      },
+      "conditions": "@playbook",
+      "event_name": "input",
+      "dialog_node": "handler_4_1577153700698"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Con qué playbook realizaré un simulacro de ejecución?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1577152692101",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1577152692123",
+      "previous_sibling": "handler_3_1577152692123"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1577152692101",
+      "context": {
+        "playbook": "@playbook"
+      },
+      "conditions": "@playbook",
+      "event_name": "input",
+      "dialog_node": "handler_3_1577152692123"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, procedo a ejecutar $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_9_1577067096578",
+      "previous_sibling": "response_3_1577067075281"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, voy a proceder con la ejecución de $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_10_1577067053394",
+      "previous_sibling": "response_8_1577067033953"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De inmediato. Procedo a ejecutar $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_8_1577067033953",
+      "previous_sibling": "response_3_1577067013596"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes decirme que playbook quieres ejecutar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "true",
+      "dialog_node": "response_2_1577067140443",
+      "previous_sibling": "response_9_1577067096578"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acuerdo, procedo a ejecutarlo."
+              },
+              {
+                "text": "Bien, ejecutaré esto."
+              },
+              {
+                "text": "Ahora sí, voy a ejecutarlo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "node_8_1577067200171",
+      "previous_sibling": "slot_4_1577153700677"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acuerdo, voy a ejecutar $playbook"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_3_1577067075281",
+      "previous_sibling": "response_10_1577067053394"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En ejecución $playbook."
+              },
+              {
+                "text": "De inmediato."
+              },
+              {
+                "text": "Ok, voy a proceder."
+              },
+              {
+                "text": "De acuerdo. Voy a ejecutarlo."
+              },
+              {
+                "text": "Ok, procedo a ejecutarlo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "conditions": "@playbook",
+      "dialog_node": "response_3_1577067013596",
+      "previous_sibling": "node_8_1577067200171"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1576620861419",
+      "variable": "$playbook",
+      "dialog_node": "slot_4_1577153700677",
+      "previous_sibling": "handler_4_1577153699946"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No me has dicho qué playbook se va a ejecutar."
+              },
+              {
+                "text": "¿Cuál playbook debo ejecutar?"
+              },
+              {
+                "text": "Bien, solo necesito el nombre del playbook que debo ejecutar y me pondré a trabajar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1576620861419",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1577153699946"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cuál es el usuario a revisar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1577169688143",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1577169688158",
+      "previous_sibling": "handler_3_1577169688158"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1577169688143",
+      "context": {
+        "userName": "@userName.literal"
+      },
+      "conditions": "@userName.literal",
+      "event_name": "input",
+      "dialog_node": "handler_3_1577169688158"
+    },
+    {
+      "type": "frame",
+      "title": "Simulacro de Playbooks",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#test_playbook",
+      "dialog_node": "node_8_1576978017350",
+      "previous_sibling": "node_4_1576818352625"
+    },
+    {
+      "type": "frame",
+      "title": "Ejecutar Playbook",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#run_playbook",
+      "dialog_node": "node_1_1576620861419",
+      "previous_sibling": "node_8_1576978017350"
+    },
+    {
+      "type": "standard",
+      "title": "Adios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fue un placer ayudarte."
+              },
+              {
+                "text": "¡Hasta la próxima!.. Estaré por aquí para ayudarte cuando quieras."
+              },
+              {
+                "text": "Estaré por aquí cuando me necesites."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1577058429403",
+      "previous_sibling": "node_2_1577002186252"
+    },
+    {
+      "type": "standard",
+      "title": "Reintentarlo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, lo intentaré de nuevo."
+              },
+              {
+                "text": "Muy bien, lo haré nuevamente."
+              },
+              {
+                "text": "Bien, lo haré de nuevo."
+              },
+              {
+                "text": "De acuerdo, lo haré una vez más."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Try_Again",
+      "dialog_node": "node_2_1577091217984",
+      "previous_sibling": "node_8_1577169626137"
+    },
+    {
+      "type": "standard",
+      "title": "Dudas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo siento, aun no me queda claro lo que debo hacer. Por favor se más explícito."
+              },
+              {
+                "text": "¡Yo de nuevo!... Honestamente no me quedó claro qué debo hacer. Por favor se mas específico."
+              },
+              {
+                "text": "La verdad sigo sin entender lo que me pides, usa otras palabras."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Doubts",
+      "dialog_node": "node_9_1577068230868",
+      "previous_sibling": "node_1_1576909832125"
+    },
+    {
+      "type": "standard",
+      "title": "Errores",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Creo que algo salió mal. Este fue el resultado"
+              },
+              {
+                "text": "¡Ocurrió un error!.. Este fue el resultado"
+              },
+              {
+                "text": "La operación generó errores"
+              },
+              {
+                "text": "Esto no está bien, algo salió mal. Estos fueron los resultados"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Errors",
+      "dialog_node": "node_2_1577002186252",
+      "previous_sibling": "node_9_1577068230868"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No entiendo, tal vez lo que me pides no está dentro de mis funciones."
+              },
+              {
+                "text": "¿Puedes expresarte con otras palabras? No te he entendido."
+              },
+              {
+                "text": "No entendí. Mis funciones se limitan a actividades con Ansible. Dilo de otra forma."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_3_1577058429403",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Comandos terminados",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Resultado de la operación"
+              },
+              {
+                "text": "Tarea terminada, estos fueron los resultados"
+              },
+              {
+                "text": "Listo, este fue el resultado"
+              },
+              {
+                "text": "Terminé con lo que me pediste, este es el resultado"
+              },
+              {
+                "text": "Este fue el resultado de la tarea que me pediste"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Commands_Completed",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1576906151431",
+      "previous_sibling": "node_2_1577091217984"
+    },
+    {
+      "type": "frame",
+      "title": "Gestionar usuario",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, voy a buscar el usuario $userName"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "value": "$userName"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Users_prensents",
+      "dialog_node": "node_8_1577169626137",
+      "previous_sibling": "node_1_1576620861419"
+    },
+    {
+      "type": "frame",
+      "title": "Revisar Playbook",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#syntax_check",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1576818352625",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "No entendí",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No sé exactamente qué deseas que haga. Por favor se un poco más específico. Quieres...\n    - Ejecutar uno o varios Playbooks indicados.\n    - Evaluar la sintaxis de uno o varios Playbooks indicados.\n    - Realizar una corrida en frío de uno o varios Playbooks sin efectuar cambios. Una prueba."
+              },
+              {
+                "text": "No me queda claro que debo hacer. Se más específico, puedo:\n    - Ejecutar uno o varios Playbooks indicados.\n    - Evaluar la sintaxis de uno o varios Playbooks indicados.\n    - Realizar una corrida en frío de uno o varios Playbooks sin efectuar cambios. Una prueba."
+              },
+              {
+                "text": "Creo que no entiendo tu petición ¿Puedes usar otras palabras?. Te puedo ayudar con:\n    - Ejecutar uno o varios Playbooks indicados.\n    - Evaluar la sintaxis de uno o varios Playbooks indicados.\n    - Realizar una corrida en frío de uno o varios Playbooks sin efectuar cambios. Una prueba."
+              },
+              {
+                "text": "Lo siento, no entendí qué debo hacer. Te puedo ayudar con:\n    - Ejecutar uno o varios Playbooks indicados.\n    - Evaluar la sintaxis de uno o varios Playbooks indicados.\n    - Realizar una corrida en frío de uno o varios Playbooks sin efectuar cambios. Una prueba."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Suggestions",
+      "dialog_node": "node_1_1576909832125",
+      "previous_sibling": "node_5_1576906151431"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola. ¿Qué deseas que haga?"
+              },
+              {
+                "text": "Hola. ¿Qué actividad de Ansible quieres que ejecute?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Hello",
+      "dialog_node": "Bienvenido"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": ""
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Admin Ansible",
+  "language": "es",
+  "description": "Diálogo para administración de host con bot asistente y ansible."
+}
