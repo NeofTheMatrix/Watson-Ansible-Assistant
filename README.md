@@ -9,14 +9,15 @@ With this version of W2A you can perform the following activities in Ansible, wi
 - Run the playbooks.
 
 ### The way W2A operates:
-![Slack --> W2A(Ansible) --> IBM Watson Assistant --> W2A(Ansible) --> Slack ](https://github.ibm.com/Anderson-Jose-Campos-Rosales/Watson-Ansible-Assistant/blob/master/_img/w2a_diagram.png?raw=true)
+![Slack --> W2A(Ansible) --> IBM Watson Assistant --> W2A(Ansible) --> Slack ](https://github.com/NeofTheMatrix/Watson-Ansible-Assistant/blob/master/_img/w2a_diagram.png?raw=true)
+
 
 ### Simple example of use:
-![Sample 1: Check sintax of playbooks from Slack](https://github.ibm.com/Anderson-Jose-Campos-Rosales/Watson-Ansible-Assistant/blob/master/_img/Sample1.png)
+![Sample 1: Check sintax of playbooks from Slack](https://github.com/NeofTheMatrix/Watson-Ansible-Assistant/blob/master/_img/Sample1.png)
 
-![Sample 2: Test of playbooks from Slack](https://github.ibm.com/Anderson-Jose-Campos-Rosales/Watson-Ansible-Assistant/blob/master/_img/Sample2.png)
+![Sample 2: Test of playbooks from Slack](https://github.com/NeofTheMatrix/Watson-Ansible-Assistant/blob/master/_img/Sample2.png)
 
-![Sample 3: Run playbooks from Slack](https://github.ibm.com/Anderson-Jose-Campos-Rosales/Watson-Ansible-Assistant/blob/master/_img/Sample3.png)
+![Sample 3: Run playbooks from Slack](https://github.com/NeofTheMatrix/Watson-Ansible-Assistant/blob/master/_img/Sample3.png)
 
 
 ## Get started using:
@@ -31,7 +32,7 @@ With this version of W2A you can perform the following activities in Ansible, wi
 
 ### Slack configuration:
 The configuration of a bot in slack is simplified with the following gif:
-![Slack bot creation](https://github.ibm.com/Anderson-Jose-Campos-Rosales/Watson-Ansible-Assistant/blob/master/_img/AppSlackCreation.gif)
+![Slack bot creation](https://github.com/NeofTheMatrix/Watson-Ansible-Assistant/blob/master/_img/AppSlackCreation.gif)
 
 Note: Set the scope minimal of your app slack in "Tools" menu, "Update to Granular scopes".
 
